@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #3F3D56;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+}
+
+header{
+    border-bottom: 2px solid #ECEEF2;
+}
+
+header .logo{
+    width: 40%;
+}
+
+
+.nav-link{
+        font-size: 17px;
+        font-weight: 500;
+        color: rgb(91, 87, 87);
+        margin-left: 15px;
+}
+
+.banner-part{
+    text-align: center;
+    padding: 75px 0;
+}
+
+.banner-part h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #01194C;
+}
+.banner-part h1 span{
+    display: block;
+    color: #008AFF;
+    font-weight: 700;
+}
+
+.banner-part p{
+    width: 900px;
+    margin: 0 auto;
+    padding: 15px 0;
+    color: #797991;
+}
+
+.stories-section{
+    padding: 75px 0;
+}
+
+.stories-section .first h2{
+    text-align: right;
+    color: #ff634f;
+    font-size: 55px;
+    font-weight: 700;
+}
+.stories-section .first p{
+    text-align: right;
+    padding-left: 200px;
+    line-height: 28px;
+}
+.stories-section h1{
+    
+    font-size: 50px;
+    font-weight: 700;
+    color: #0d2455;
+    line-height: 60px;
+}
+
+.stories-section .second h1 span{
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0d2455;
+
+}
+
+.feature{
+    padding: 40px 30px;
+}
+
+.feature img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 210px;
+}
+.feature .feature-1{
+    background-color: rgb(243, 216, 219);
+    
+}
+.feature .feature-2{
+    background-color: #EBF9F4;
+}
+.feature .feature-3{
+    background-color: #FFF7E8;
+}
+
+.feature h4{
+    padding: 20px 0px 5px;
+    font-weight: 700;
+}
+
+.feature p{
+    line-height: 25px;
+}
+
+footer{
+    background-color: #008AFF;
+    padding: 25px 0px 15px;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+@media  (min-width: 320px) and (max-width:576px){
+    .banner-part p{
+        width: 100%;
+    }
+    .banner-part img{
+        width: 100%;
+    }
+    .banner-part h1 {
+        font-size: 38px;
+    }
+
+    .stories-section .first h2 {
+        text-align: center;
+    }
+
+    .stories-section .first p {
+        text-align: center;
+        padding-left: 0;
+        line-height: 28px;
+    }
+
+    .stories-section .second h1 span {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .stories-section h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .feature img {
+        height: 130px;
+    }
+
+    footer {
+        padding: 15px 0px 0px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+    .stories-section {
+        padding: 0px 0;
+    }
+
+    .navbar-toggler-icon {
+        width: 0.5em;
+        height: 1.5em;
+    }
+
+    .feature h4 {
+        text-align: center;
+    }
+
+    .feature p {
+        text-align: center;
+    }
+
+    .banner-part {
+        text-align: center;
+        padding: 20px 0;
+    }
+}
